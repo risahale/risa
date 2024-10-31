@@ -3,6 +3,7 @@ import streamlit as st
 # Judul Aplikasi
 st.title("BMI Calculator RISA")
 
+
 # Input dari pengguna
 st.write("Masukkan tinggi badan (dalam cm) dan berat badan (dalam kg):")
 height = st.number_input("Tinggi badan (cm)", min_value=100.0, max_value=250.0, step=0.1)
